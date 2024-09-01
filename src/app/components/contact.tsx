@@ -6,12 +6,8 @@ const Contact = () => {
       <section className="text-black body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative ">
-            <iframe
-              width="100%"
-              height="100%"
-              className="absolute inset-0"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.133649852127!2d-71.09673492497225!3d42.360094935101074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370aaf51a6a87%3A0xd0e08ea5b308203c!2sMassachusetts%20Institute%20of%20Technology!5e1!3m2!1sen!2s!4v1725122380875!5m2!1sen!2s"
-              style={{ filter: " contrast(1.2) opacity(0.4)" }}
+            <iframe id="iframe"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.133649852127!2d-71.09673492497225!3d42.360094935101074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370aaf51a6a87%3A0xd0e08ea5b308203c!2sMassachusetts%20Institute%20of%20Technology!5e1!3m2!1sen!2s!4v1725122380875!5m2!1sen!2s"
             />
             <div className="bg-white rounded-2xl relative flex flex-wrap py-6  shadow-md ">
               <div className="lg:w-1/2 px-6">
