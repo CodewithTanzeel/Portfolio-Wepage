@@ -27,7 +27,7 @@ const Skill = () => {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <Image
-                    className="hover-effect"
+                    className="hover-effect rounded-2xl"
                     src={html}
                     alt="HTML"
                     width={60}
@@ -51,7 +51,7 @@ const Skill = () => {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <Image
-                    className="hover-effect"
+                    className="hover-effect rounded-2xl"
                     src={css}
                     alt="CascadingStyle"
                     width={60}

@@ -10,9 +10,7 @@ const Contact = () => {
               width="100%"
               height="100%"
               className="absolute inset-0"
-
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.133649852127!2d-71.09673492497225!3d42.360094935101074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370aaf51a6a87%3A0xd0e08ea5b308203c!2sMassachusetts%20Institute%20of%20Technology!5e1!3m2!1sen!2s!4v1725122380875!5m2!1sen!2s"
-
               style={{ filter: " contrast(1.2) opacity(0.4)" }}
             />
             <div className="bg-white rounded-2xl relative flex flex-wrap py-6  shadow-md ">
@@ -21,11 +19,12 @@ const Contact = () => {
                   ADDRESS
                 </h2>
                 <p className="mt-1">
-                  <span className="font-extrabold text-black">Quantum Verse Inc.</span>
-                  1234 Innovation Drive
-                  Suite 567
-                  Tech City, CA 94016
-                  United States</p>
+                  <span className="font-extrabold text-black">
+                    Quantum Verse Inc.
+                  </span>
+                  1234 Innovation Drive Suite 567 Tech City, CA 94016 United
+                  States
+                </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -42,10 +41,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0  p-10 rounded-lg opacity-95">
-            <form
-              action="https://formspree.io/f/xwpeydlz"
-              method="POST"
-            >
+            <form action="https://formspree.io/f/mgvwdgpe" method="POST">
               <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                 Contact
               </h2>
@@ -64,10 +60,7 @@ const Contact = () => {
                 />
               </div>
               <div className="relative mb-4">
-                <label
-                  htmlFor="email"
-                  className="leading-7 text-sm text-black"
-                >
+                <label htmlFor="email" className="leading-7 text-sm text-black">
                   Email
                 </label>
                 <input
@@ -92,11 +85,10 @@ const Contact = () => {
                 />
               </div>
               <div className="flex justify-center">
-  <button className="text-white bg-slate-900 border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-blue-500 rounded-full text-lg transition-all duration-300">
-    Submit
-  </button>
-</div>
-
+                <button className="text-white bg-slate-900 border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-blue-500 rounded-full text-lg transition-all duration-300">
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         </div>
@@ -106,4 +98,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

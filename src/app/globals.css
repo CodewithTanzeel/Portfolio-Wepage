@@ -23,38 +23,72 @@
   }
 }
 
-/* Hide default cursor */
-body {
-  cursor: none; /* Hides the default cursor */
-}
-
-/* Modern dot cursor styling */
-.dot-cursor {
-  width: 18px; /* Increase size for better visibility */
-  height: 18px; /* Increase size for better visibility */
-  position: fixed; /* Fixed positioning to follow the mouse */
-  background: radial-gradient(circle, #5b06fa, #bfcbe4); /* Gradient with high contrast */
-  border-radius: 50%; /* Makes the cursor a circle */
-  pointer-events: none; /* Prevents the dot from interfering with other elements */
-  z-index: 9999; /* Ensures the dot is above other elements */
-  transform: translate(-50%, -50%); /* Centers the dot on the cursor position */
-  transition: transform 0.1s ease-in-out, background 0.3s ease; /* Smooth scaling and color transition */
-}
-
-/* Dot cursor grows on hover */
-a:hover ~ .dot-cursor,
-button:hover ~ .dot-cursor {
-  transform: scale(1.8) translate(-50%, -50%); /* Enlarges the dot */
-  background: radial-gradient(circle, #5512e4, #ebd82f); /* Adjusted gradient for better hover visibility */
-}
 /* Add this to your globals.css */
-.hover-effect {
+
+
+
+
+/* Ensure links and buttons are visible */
+a, button {
+  color: white; /* Adjust as needed for visibility */
+}
+
+
+
+
+
+/* Apply hover effect to all images */
+img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.hover-effect:hover {
+img:hover {
   transform: scale(1.05); /* Zoom effect */
   box-shadow: 0 10px 20px rgba(218, 247, 146, 0.5); /* Green shadow */
+}
+
+
+
+/* Ensure proper styles for the overlay */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Full-screen overlay */
+.bg-opacity-80 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* For the hamburger sheet (full-screen menu) */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+/* Ensure the overlay content is centered */
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 
