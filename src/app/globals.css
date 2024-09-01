@@ -1,14 +1,16 @@
+/* Tailwind CSS imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Main container styles */
 #main {
   background: linear-gradient(120deg, #463ad4, #970d9d, #000000);
   background-size: 180% 180%;
-
   animation: gradient-animation 12s ease infinite;
 }
 
+/* Keyframes for gradient animation */
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -19,4 +21,29 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+/* Hide default cursor */
+body {
+  cursor: none; /* Hides the default cursor */
+}
+
+/* Modern dot cursor styling */
+.dot-cursor {
+  width: 12px; /* Size of the dot */
+  height: 12px; /* Size of the dot */
+  position: fixed; /* Fixed positioning to follow the mouse */
+  background-color: black; /* Dot color */
+  border-radius: 50%; /* Makes the cursor a circle */
+  pointer-events: none; /* Prevents the dot from interfering with other elements */
+  z-index: 9999; /* Ensures the dot is above other elements */
+  transform: translate(-50%, -50%); /* Centers the dot on the cursor position */
+  transition: transform 0.1s ease-in-out; /* Smooth scaling effect */
+}
+
+/* Dot cursor grows on hover */
+a:hover ~ .dot-cursor,
+button:hover ~ .dot-cursor {
+  transform: scale(1.5) translate(-50%, -50%); /* Enlarges the dot */
+  background-color: rgba(0, 0, 0, 0.7); /* Optional: Changes color on hover */
 }
