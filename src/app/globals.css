@@ -30,10 +30,10 @@ body {
 
 /* Modern dot cursor styling */
 .dot-cursor {
-  width: 16px; /* Increase size for better visibility */
-  height: 16px; /* Increase size for better visibility */
+  width: 18px; /* Increase size for better visibility */
+  height: 18px; /* Increase size for better visibility */
   position: fixed; /* Fixed positioning to follow the mouse */
-  background: radial-gradient(circle, #ffffff, #a0aec0); /* Gradient with high contrast */
+  background: radial-gradient(circle, #5b06fa, #bfcbe4); /* Gradient with high contrast */
   border-radius: 50%; /* Makes the cursor a circle */
   pointer-events: none; /* Prevents the dot from interfering with other elements */
   z-index: 9999; /* Ensures the dot is above other elements */
@@ -45,7 +45,7 @@ body {
 a:hover ~ .dot-cursor,
 button:hover ~ .dot-cursor {
   transform: scale(1.8) translate(-50%, -50%); /* Enlarges the dot */
-  background: radial-gradient(circle, #e2e8f0, #cbd5e0); /* Adjusted gradient for better hover visibility */
+  background: radial-gradient(circle, #5512e4, #ebd82f); /* Adjusted gradient for better hover visibility */
 }
 /* Add this to your globals.css */
 .hover-effect {
