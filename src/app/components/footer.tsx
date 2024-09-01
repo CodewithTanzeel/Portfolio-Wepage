@@ -8,7 +8,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="bg-yello-1  bg-slate-950">
+    <div className=" bg-slate-950">
       <footer className="text-neutral-50 body-font">
         <div className="container px-3 py-1 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">

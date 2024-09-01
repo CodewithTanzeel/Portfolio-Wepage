@@ -14,7 +14,7 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <div className="bg-slate-950 z-50 sticky top-0">
+    <div className="bg-slate-900 z-50 sticky top-0">
       <header className="text-neutral-50 body-font">
         <div className="container mx-auto flex items-center justify-between px-4 py-2">
           {/* Logo and Icon Fixed on the Left */}

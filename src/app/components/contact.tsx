@@ -91,9 +91,12 @@ const Contact = () => {
                   defaultValue={"Enter Your message"}
                 />
               </div>
-              <button className="text-white bg-slate-900 border-0 py-2 px-6 focus:outline-purple-500 hover:bg-white hover:text-blue-500 hover:border-purple-500 rounded-full text-lg">
-                Submit
-              </button>
+              <div className="flex justify-center">
+  <button className="text-white bg-slate-900 border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-blue-500 rounded-full text-lg transition-all duration-300">
+    Submit
+  </button>
+</div>
+
             </form>
           </div>
         </div>

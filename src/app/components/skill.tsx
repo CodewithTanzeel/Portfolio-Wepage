@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import { AiOutlineCheckSquare } from "react-icons/ai";
-import html from "./../../../public/assets/picture/html.png"
-import css from "./../../../public/assets/picture/css.png"
-import javasc from "./../../../public/assets/picture/javasc.png"
-import next from "./../../../public/assets/picture/next.png"
-import ts from "./../../../public/assets/picture/ts.png"
-import boot from "./../../../public/assets/picture/boot.png"
+import html from "./../../../public/assets/picture/html.png";
+import css from "./../../../public/assets/picture/css.png";
+import javasc from "./../../../public/assets/picture/javasc.png";
+import next from "./../../../public/assets/picture/next.png";
+import ts from "./../../../public/assets/picture/ts.png";
+import boot from "./../../../public/assets/picture/boot.png";
 
 const Skill = () => {
   return (
@@ -16,7 +16,6 @@ const Skill = () => {
           <div className="flex flex-col text-center w-full mb-20">
             <h2 className="text-xs text-amber-400 tracking-widest font-medium title-font mb-1">
               CAPABILITIES
-
             </h2>
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-red-50 pb-4">
               Expertise Overview
@@ -28,6 +27,7 @@ const Skill = () => {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <Image
+                    className="hover-effect"
                     src={html}
                     alt="HTML"
                     width={60}
@@ -51,6 +51,7 @@ const Skill = () => {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <Image
+                    className="hover-effect"
                     src={css}
                     alt="CascadingStyle"
                     width={60}
@@ -75,7 +76,7 @@ const Skill = () => {
                 <div className="flex items-center mb-3">
                   <Image
                     src={javasc}
-                    className="rounded-md"
+                    className="rounded-md hover-effect"
                     alt="Javascript"
                     width={50}
                     height={50}
@@ -98,6 +99,7 @@ const Skill = () => {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <Image
+                    className="hover-effect"
                     src={ts}
                     alt="TypeScript"
                     width={50}
@@ -121,6 +123,7 @@ const Skill = () => {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <Image
+                    className="hover-effect rounded-3xl bg-white "
                     src={next}
                     alt="React"
                     width={50}
@@ -145,7 +148,7 @@ const Skill = () => {
                 <div className="flex items-center mb-3">
                   <Image
                     src={boot}
-                    className="bg-white rounded-2xl"
+                    className="bg-white rounded-2xl hover-effect"
                     alt="Bootstrap"
                     width={50}
                     height={50}
@@ -171,4 +174,3 @@ const Skill = () => {
 };
 
 export default Skill;
-

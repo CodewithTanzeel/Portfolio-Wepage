@@ -47,5 +47,17 @@ button:hover ~ .dot-cursor {
   transform: scale(1.8) translate(-50%, -50%); /* Enlarges the dot */
   background: radial-gradient(circle, #e2e8f0, #cbd5e0); /* Adjusted gradient for better hover visibility */
 }
+/* Add this to your globals.css */
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05); /* Zoom effect */
+  box-shadow: 0 10px 20px rgba(218, 247, 146, 0.5); /* Green shadow */
+}
+
+
+
 
 

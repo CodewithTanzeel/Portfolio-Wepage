@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <Image
-            className="object-cover object-center rounded-full mx-auto w-[18rem] "
+            className="object-cover object-center hover-effect rounded-full mx-auto w-[18rem] "
             alt="hero"
             width={500}
             height={500}
