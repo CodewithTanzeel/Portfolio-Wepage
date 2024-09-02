@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+
 import {
   AiOutlineMenu,
   AiOutlineClose,
@@ -76,7 +77,7 @@ const Navbar = () => {
                 Contact
               </Link>
               <a
-                href="/assests/cv/myCv.pdf"
+                href="/assets/cv/myCv.pdf"
                 className="block md:inline-block mt-2 md:mt-0"
               >
                 <button className="inline-flex items-center bg-slate-900 border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-slate-900 rounded-3xl text-base">
@@ -134,12 +135,12 @@ const Navbar = () => {
                 >
                   Contact
                 </Link>
-                <a href="/assests/cv/TanzeelAhmad.pdf" className="mt-4">
+                <Link href="/assets/cv/myCv.pdf" className="mt-4">
                   <button className="inline-flex items-center bg-slate-900 border-0 py-2 px-4 focus:outline-none hover:bg-white hover:text-slate-900 rounded-3xl text-base">
                     Resume
                     <AiOutlineCloudDownload className="text-xl ml-2" />
                   </button>
-                </a>
+                </Link>
               </nav>
             </div>
           </div>
@@ -151,69 +152,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-// const Navbar = () => {
-//   return (
-//     <div className="bg-slate-950 z-50 sticky top-0 ">
-//       <header className="text-neutral-50 body-font">
-//         <div className="container mx-auto flex flex-wrap px-2 flex-col md:flex-row items-center">
-//           {/* Icon and logo left side */}
-//           <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-//             <Image
-//               src={logo}
-//               alt="Quantomverse"
-//               width={150}
-//               height={100}
-//               className="w-[50px]"
-//             />
-//             {/* Logo left Side */}
-//             <span className="ml-3 text-xl cursor-pointer">TanzeelAhmad</span>
-//           </a>
-//           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center px-auto">
-//             <Link
-//               href={"/"}
-//               className="mr-5 hover:text-blue-600 hover:bg-white rounded-3xl px-2"
-//             >
-//               Home
-//             </Link>
-//             <Link
-//               href={"#about"}
-//               className="mr-5 hover:text-blue-600 hover:bg-white rounded-3xl px-2"
-//             >
-//               About
-//             </Link>
-//             <Link
-//               href={"#skill"}
-//               className="mr-5 hover:text-blue-600 hover:bg-white rounded-3xl px-2"
-//             >
-//               Skills
-//             </Link>
-//             <Link
-//               href={"#project"}
-//               className="mr-5 hover:text-blue-600 hover:bg-white rounded-3xl px-2"
-//             >
-//               Projects
-//             </Link>
-//             <Link
-//               href={"#Contact"}
-//               className="mr-5 hover:text-blue-600 hover:bg-white rounded-3xl px-2"
-//             >
-//               Contact
-//             </Link>
-//           </nav>
-//           <a href="/assests/cv/myCv.pdf">
-//             <button
-//               className="inline-flex items-center
-//             p-10 bg-slate-900 border-0 py-1 px-3 focus:outline-none hover:bg-white hover:text-slate-900
-//             hover:text-blue-blue rounded-3xl text-base mt-4 md:mt-0"
-//             >
-//               Resume
-//               <AiOutlineCloudDownload className="text-xl ml-2" />
-//             </button>
-//           </a>
-//         </div>
-//       </header>
-//     </div>
-//   );
-// };
-
-// export default Navbar; */}
