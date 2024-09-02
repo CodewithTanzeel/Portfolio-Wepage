@@ -6,8 +6,9 @@ const Contact = () => {
       <section className="text-black body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative ">
-            <iframe id="iframe"
-             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.133649852127!2d-71.09673492497225!3d42.360094935101074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370aaf51a6a87%3A0xd0e08ea5b308203c!2sMassachusetts%20Institute%20of%20Technology!5e1!3m2!1sen!2s!4v1725122380875!5m2!1sen!2s"
+            <iframe
+              id="iframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.133649852127!2d-71.09673492497225!3d42.360094935101074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370aaf51a6a87%3A0xd0e08ea5b308203c!2sMassachusetts%20Institute%20of%20Technology!5e1!3m2!1sen!2s!4v1725122380875!5m2!1sen!2s"
             />
             <div className="bg-white rounded-2xl relative flex flex-wrap py-6  shadow-md ">
               <div className="lg:w-1/2 px-6">
@@ -77,7 +78,7 @@ const Contact = () => {
                   id="message"
                   name="message"
                   className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                  defaultValue={"Enter Your message"}
+                  defaultValue={""}
                 />
               </div>
               <div className="flex justify-center">

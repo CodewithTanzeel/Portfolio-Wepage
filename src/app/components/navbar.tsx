@@ -134,7 +134,7 @@ const Navbar = () => {
                 >
                   Contact
                 </Link>
-                <a href="/assests/cv/myCv.pdf" className="mt-4">
+                <a href="/assests/cv/TanzeelAhmad.pdf" className="mt-4">
                   <button className="inline-flex items-center bg-slate-900 border-0 py-2 px-4 focus:outline-none hover:bg-white hover:text-slate-900 rounded-3xl text-base">
                     Resume
                     <AiOutlineCloudDownload className="text-xl ml-2" />
