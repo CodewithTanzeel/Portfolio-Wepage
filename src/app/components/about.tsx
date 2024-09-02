@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import pic from "../../../public/assets/picture/pic.png";
-
+//about function
 const About = () => {
   return (
     <div id="about">
