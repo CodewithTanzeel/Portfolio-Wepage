@@ -8,7 +8,7 @@ I am Tanzeel, a Generative AI Full-Stack Developer with a strong passion for cre
 
 ## Live Demo
 
-You can view the live version of my portfolio website here: [Live Portfolio Website](https://codewithtanzeel.github.io/portfolio-website)
+You can view the live version of my portfolio website here: [Live Portfolio Website](https://tanzeelahmad-portfolio-wepage.vercel.app/)
 
 ## Features
 
